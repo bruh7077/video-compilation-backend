@@ -1,10 +1,10 @@
 fastapi==0.104.1
 uvicorn==0.24.0
 sqlalchemy==2.0.23
-psycopg2-binary==2.9.3   # older stable version
+psycopg2-binary==2.9.3
 requests==2.31.0
 python-dotenv==1.0.0
-pydantic==2.5.0
+pydantic==2.4.2          # version with prebuilt wheels
 passlib[bcrypt]==1.7.4
 PyJWT==2.8.0
 email-validator==2.1.0
